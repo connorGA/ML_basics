@@ -8,3 +8,8 @@
     # Simplicity: Recursive solutions are often more straightforward and elegant for problems that involve repetitive processing of smaller, similar subproblems, such as tree traversals or factorial calculations
     # Intuitiveness: Recursion can closely mirror the mathematical or conceptual definition of the problem, making the code more intuitive and easier to understand
     # Power: Its particularly effective for solving complex algorithmic challenges that can be decomposed into smaller instances of the same problem, such as sorting algorithms(Like merge sort), searching algorithms(like Binary Search), and solving puzzles
+
+# Disadvantages of Recursion
+
+    # Performancer Overhead: Each recursive call adds a new layer to the call stack, which can lead to increased memory usage and potentially slower performance compared to iterative solutions
+    # Stack Overflow Risk: Depp recursion can exhaust the stack memory allocated to a program, leading to a stack overflow error, especially in languages with a limited call stack size
