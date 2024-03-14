@@ -13,3 +13,9 @@
 
     # Performancer Overhead: Each recursive call adds a new layer to the call stack, which can lead to increased memory usage and potentially slower performance compared to iterative solutions
     # Stack Overflow Risk: Depp recursion can exhaust the stack memory allocated to a program, leading to a stack overflow error, especially in languages with a limited call stack size
+
+# Common Use Cases
+
+    # Divide and conquer algorithms: Problems that can be divided into smaller subproblems of the same type, solved independently, and combined to form a solution
+    # Dynamic Programming: Many dynamic programming problems utilize recursion, often with memoization to optimize performance
+    # Data Structures: Recursion is naturally suited for operations on recursive data structures like linked lists, trees, and graphs
